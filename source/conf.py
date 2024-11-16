@@ -15,9 +15,13 @@ author = 'sion908'
 
 extensions = [
     # 使用する拡張としてsphinx-revealjsを新規追加
+    # 'sphinx_revealjs',
+    # 'sphinx.ext.githubpages',
+    # # 追加: sphinxemojiは2個書くことに注意
+    # 'sphinxemoji.sphinxemoji',
+    'oembed.ext.sphinx',
+    'sphinx.ext.githubpages',  # 追加！
     'sphinx_revealjs',
-    'sphinx.ext.githubpages',
-    # 追加: sphinxemojiは2個書くことに注意
     'sphinxemoji.sphinxemoji',
 ]
 
