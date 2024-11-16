@@ -19,7 +19,7 @@ extensions = [
     # 'sphinx.ext.githubpages',
     # # 追加: sphinxemojiは2個書くことに注意
     # 'sphinxemoji.sphinxemoji',
-    'oembed.ext.sphinx',
+    # 'oembed.ext.sphinx',
     'sphinx.ext.githubpages',  # 追加！
     'sphinx_revealjs',
     'sphinxemoji.sphinxemoji',
