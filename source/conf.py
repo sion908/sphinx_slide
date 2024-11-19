@@ -19,7 +19,8 @@ extensions = [
     # 'sphinx.ext.githubpages',
     # # 追加: sphinxemojiは2個書くことに注意
     # 'sphinxemoji.sphinxemoji',
-    # 'oembed.ext.sphinx',
+    "sphinxext.opengraph",
+    "oembedpy.ext.sphinx",
     'sphinx.ext.githubpages',  # 追加！
     'sphinx_revealjs',
     'sphinxemoji.sphinxemoji',
@@ -48,7 +49,10 @@ revealjs_script_plugins = [
         "name": "RevealNotes",
         "src": "revealjs/plugin/notes/notes.js",
     },
-
+    {
+        "name": "RevealCustomControls",
+        "src": "https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/customcontrols/plugin.js"
+    },
 ]
 
 # Reveal.jsプレゼンテーションで使うCSSファイルを指定
@@ -57,3 +61,15 @@ revealjs_css_files = [
     'slides.css',
     "revealjs/plugin/highlight/zenburn.css",
 ]
+
+revealjs_script_conf = {  # プラグインの有効化
+    # "customcontrols": {
+    #     "controls": [
+    #         {
+    #             "title": "Go to GitHub",
+    #             "icon": '<i class="fa fa-github"></i>',
+    #             "action": "location.href = 'https://github.com/attakei/slides/';",
+    #         },
+    #     ]
+    # },
+}

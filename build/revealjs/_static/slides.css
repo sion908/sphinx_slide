@@ -5,3 +5,21 @@
 .reveal h5 {
     text-transform: none;
 }
+
+h1 {
+    padding-bottom:1em;
+}
+.field-list.simple dt{
+    size: 0.8em;
+}
+.field-list.simple dd{
+    size: 0.7em;
+}
+
+figure.align-right {
+    float: right;
+}
+
+figure.align-left {
+    float: left;
+}

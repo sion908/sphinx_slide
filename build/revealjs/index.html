@@ -4,11 +4,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="合DAO立ち上げてみた" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="index.html" />
+<meta property="og:site_name" content="test" />
+<meta property="og:description" content="開港5都市景観まちづくり会議2024横浜大会FGショートプレゼン大会で発表したプレゼンテーションです" />
+<meta property="og:image" content="_images/ogp/pycon-mini-tokai-2024/index.png" />
+<meta property="og:image:alt" content="test" />
+<meta name="description" content="author, 德久 泰河(紫苑) / @Sion908_,, date, 2024/11/23,, event, 開港5都市景観まちづくり会議2024横浜大会 FGショートプレゼン大会,. はじめに: アジェンダ: このプレゼンテーションでは、次のことを解説します。 おまえだれよ, 合DAOについて, えぬじーについて, FG2045について. お前誰よ: 德久泰河 Sion908 (X,..." />
 
-  <title>Sphinxでのプレゼンテーションを体験する</title>
+  <title>合DAO立ち上げてみた</title>
     <link rel="stylesheet" type="text/css" href="_static/revealjs/dist/reveal.css?v=40f0a724" />
     <link rel="stylesheet" href="_static/revealjs/dist/theme/black.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="_static/slides.css?v=24b5900b" />
+    <link rel="stylesheet" type="text/css" href="_static/slides.css?v=3271857c" />
     <link rel="stylesheet" type="text/css" href="_static/revealjs/plugin/highlight/zenburn.css?v=83d5745d" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -19,37 +27,70 @@
         <div class="slides" role="main">
             <section >
 <section >
-<h1>Sphinxでのプレゼンテーションを体験する</h1>
-<aside class="notes">ここのコメント行は、スピーカーノートして扱われる</aside></section>
-</section>
-<section >
-<section >
-<h2>準備</h2>
-</section>
-<section >
-<h3>絵文字を使おう</h3>
-<p>絵文字芸：スト2</p>
-<p>🇯🇵 ➡️ ➡️ ✈️ ➡️ ➡️ 🇹🇭</p>
-</section>
-<section >
-<h3>sphinx-quickstart</h3>
-<pre data-id="sphinx-quickstart"><code data-trim data-noescape class="python">extensions = [
-    'sphinx_revealjs',
-]</code></pre>
-</section>
-<section >
-<h3>Python仮想環境を用意する</h3>
-<p>ローカル共通環境に不必要なライブラリをインストールしないために、
-<code class="docutils literal notranslate"><span class="pre">venv</span></code> を使って仮想環境を用意します。</p>
-</section>
-<section >
-<h3>ドキュメントを新規作成する</h3>
-<p><code class="docutils literal notranslate"><span class="pre">sphinx-quickstart</span></code> を使って、ドキュメントに必要なファイル一式を用意します。</p>
+<h1>合DAO立ち上げてみた</h1>
+<dl class="field-list simple">
+<dt class="field-odd">author<span class="colon">:</span></dt>
+<dd class="field-odd"><p>德久 泰河(紫苑) / &#64;Sion908_</p>
+</dd>
+<dt class="field-even">date<span class="colon">:</span></dt>
+<dd class="field-even"><p>2024/11/23</p>
+</dd>
+<dt class="field-odd">event<span class="colon">:</span></dt>
+<dd class="field-odd"><p>開港5都市景観まちづくり会議2024横浜大会 FGショートプレゼン大会</p>
+</dd>
+</dl>
 </section>
 </section>
 <section >
-<h2>執筆</h2>
-<p>(TBD)</p>
+<section >
+<h2>はじめに</h2>
+</section>
+<section >
+<h3>アジェンダ</h3>
+<p>このプレゼンテーションでは、次のことを解説します。</p>
+<ul class="simple">
+<li class="fragment"><p>おまえだれよ</p></li>
+<li class="fragment"><p>合DAOについて</p></li>
+<li class="fragment"><p>えぬじーについて</p></li>
+<li class="fragment"><p>FG2045について</p></li>
+</ul>
+</section>
+</section>
+<section >
+<section >
+<h2>お前誰よ</h2>
+<p>德久泰河</p>
+<ul class="simple">
+<li><p>Sion908 (X, GitHub, etc)</p></li>
+<li><p>生息地(群馬、長崎)</p></li>
+<li><p>株式会社デザイニウム</p></li>
+<li><p>webアプリケーション, 3DCG</p></li>
+<li><p>写真</p></li>
+<li><p>高校教員免許(数学、工業)</p></li>
+</ul>
+<figure class="align-right">
+<img alt="著者近影" src="https://pbs.twimg.com/profile_images/1759505657907363840/Oi59t-mg_400x400.jpg" />
+</figure>
+</section>
+<section >
+<h3>株式会社デザイニウム</h3>
+<ul class="simple">
+<li><p>福島県会津若松市</p></li>
+<li><p>MaaS,地域通貨を含む、都市OSの一端や、除雪クラウドなどのDX化などを行う</p></li>
+<li><p>東京の拠点では、ARやXRも行っている</p></li>
+</ul>
+<figure class="align-left">
+<a class="reference internal image-reference" href="_images/dsn_logo_legacy5.png"><img alt="corp_rogo" src="_images/dsn_logo_legacy5.png" style="width: 500px;" />
+</a>
+</figure>
+<figure class="align-right">
+<a class="reference internal image-reference" href="_images/corp_home.png"><img alt="corp_home" src="_images/corp_home.png" style="width: 1200px;" />
+</a>
+</figure>
+</section>
+</section>
+<section >
+<h2>🎊 会社作りました 🎊</h2>
 </section>
 </section>
 
@@ -61,16 +102,17 @@
     
       <script src="_static/revealjs/plugin/highlight/highlight.js"></script>
       <script src="_static/revealjs/plugin/notes/notes.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/customcontrols/plugin.js"></script>
       
     
     <script>
         var revealjsConfig = new Object();
         Object.assign(revealjsConfig, {"scrollActivationWidth": null});
-        
+        Object.assign(revealjsConfig, {"width":1920,"height":1080});
         
         
           revealjsConfig.plugins = [
-            RevealHighlight,RevealNotes,
+            RevealHighlight,RevealNotes,RevealCustomControls,
           ];
         
         // More info https://github.com/hakimel/reveal.js#configuration

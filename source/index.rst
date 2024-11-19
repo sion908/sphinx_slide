@@ -1,48 +1,41 @@
-======================================
-Sphinxでのプレゼンテーションを体験する
-======================================
+:og:image: _images/ogp/pycon-mini-tokai-2024/index.png
+:og:description: 開港5都市景観まちづくり会議2024横浜大会FGショートプレゼン大会で発表したプレゼンテーションです
 
-.. revealjs-notes::
-   
-   ここのコメント行は、スピーカーノートして扱われる
+================================
+合DAO立ち上げてみた
+================================
 
-準備
-====
+.. revealjs-slide::
+    :conf: {"width":1920,"height":1080}
 
-絵文字を使おう
---------------
+:author: 德久 泰河(紫苑) / @Sion908_
+:date: 2024/11/23
+:event: 開港5都市景観まちづくり会議2024横浜大会 FGショートプレゼン大会
 
-絵文字芸：スト2
+はじめに
+================
 
-|:flag_jp:| |:arrow_right:| |:arrow_right:| |:airplane:| |:arrow_right:| |:arrow_right:| |:flag_th:|
+アジェンダ
+--------------------
+このプレゼンテーションでは、次のことを解説します。
 
 
-動画を埋め込もう
-----------------
+.. revealjs-fragments::
+    * おまえだれよ
+    * 合DAOについて
+    * えぬじーについて
+    * FG2045について
 
-.. oembed:: https://youtube.com/watch?v=Ps9JiaYqAFg
 
-sphinx-quickstart
-----------------
+.. include:: whois.rst
 
-.. code-block:: python
 
-    extensions = [
-        'sphinx_revealjs',
-    ]
+|:confetti_ball:| 会社作りました |:confetti_ball:|
+===========================
 
-Python仮想環境を用意する
-------------------------
 
-ローカル共通環境に不必要なライブラリをインストールしないために、
-``venv`` を使って仮想環境を用意します。
+.. revealjs-section::
+    :h2-font-size: 2em
 
-ドキュメントを新規作成する
---------------------------
+.. include:: godao.rst
 
-``sphinx-quickstart`` を使って、ドキュメントに必要なファイル一式を用意します。
-
-執筆
-====
-
-(TBD)
