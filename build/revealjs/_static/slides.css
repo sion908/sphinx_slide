@@ -1,3 +1,7 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -7,12 +11,14 @@
 }
 
 h1 {
-    padding-bottom:1em;
+    padding-bottom: 1em;
 }
-.field-list.simple dt{
+
+.field-list.simple dt {
     size: 0.8em;
 }
-.field-list.simple dd{
+
+.field-list.simple dd {
     size: 0.7em;
 }
 
@@ -22,4 +28,21 @@ figure.align-right {
 
 figure.align-left {
     float: left;
+}
+
+li {
+    display: flow-root;
+}
+
+.reveal dt {
+    margin-top: 50px;
+}
+
+dd>ul {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+dd>ul>li {
+    margin-top: 10px;
 }

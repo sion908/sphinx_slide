@@ -1,0 +1,17 @@
+{
+  "name": "sphinx_slide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "html": "make revealjs",
+    "pdf": "decktape -s 1920x1080 build/revealjs/index.html build/revealjs/index.pdf",
+    "all": "npm run html && npm run pdf"
+  },
+  "author": "sion908 <sionn908@gmail.com> (https://sion908.github.io/sion908/)",
+  "license": "ISC",
+  "dependencies": {
+    "decktape": "^3.14.0"
+  }
+}

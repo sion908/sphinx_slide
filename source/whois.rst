@@ -11,9 +11,10 @@
 
 * 高校教員免許(数学、工業)
 
-.. figure:: https://pbs.twimg.com/profile_images/1759505657907363840/Oi59t-mg_400x400.jpg
+.. figure:: ./_image/avator.jpeg
     :alt: 著者近影
     :align: right
+    :width: 400px
 
 
 

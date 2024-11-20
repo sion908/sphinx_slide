@@ -34,8 +34,11 @@
 ===========================
 
 
-.. revealjs-section::
-    :h2-font-size: 2em
-
 .. include:: godao.rst
 
+
+
+sss
+=====
+
+dasda

@@ -10,6 +10,9 @@ project = 'test'
 copyright = '2024, sion908'
 author = 'sion908'
 
+# LaTeX の docclass 設定
+latex_docclass = {'manual': 'jsbook'}
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
@@ -24,6 +27,7 @@ extensions = [
     'sphinx.ext.githubpages',  # 追加！
     'sphinx_revealjs',
     'sphinxemoji.sphinxemoji',
+    "sphinx_design",
 ]
 
 templates_path = ['_templates']
