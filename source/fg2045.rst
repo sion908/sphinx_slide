@@ -1,0 +1,101 @@
+fg2045について
+====
+
+'
+-----
+
+.. revealjs-section::
+    :data-background: ../../source/_image/fg2045/01.png
+
+.. revealjs-slide::
+    :theme: "_static/fg.css"
+
+'
+-----
+
+.. revealjs-section::
+    :data-background: ../../source/_image/fg2045/02.png
+
+.. revealjs-slide::
+    :theme: "_static/onetime.css"
+
+'
+-----
+
+.. revealjs-section::
+    :data-background: ../../source/_image/fg2045/03.png
+
+.. revealjs-slide::
+    :theme: "_static/onetime.css"
+
+'
+-----
+
+.. revealjs-section::
+    :data-background: ../../source/_image/fg2045/04.png
+
+.. revealjs-slide::
+    :theme: "_static/onetime.css"
+
+'
+-----
+
+.. revealjs-section::
+    :data-background: ../../source/_image/fg2045/05.png
+
+.. revealjs-slide::
+    :theme: "_static/onetime.css"
+
+'
+-----
+
+.. revealjs-section::
+    :data-background: ../../source/_image/fg2045/06.png
+
+.. revealjs-slide::
+    :theme: "_static/onetime.css"
+
+'
+-----
+
+.. revealjs-section::
+    :data-background: ../../source/_image/fg2045/07.png
+
+.. revealjs-slide::
+    :theme: "_static/onetime.css"
+
+'
+-----
+
+.. revealjs-section::
+    :data-background: ../../source/_image/fg2045/08.png
+
+.. revealjs-slide::
+    :theme: "_static/onetime.css"
+
+'
+-----
+
+.. revealjs-section::
+    :data-background: ../../source/_image/fg2045/09.png
+
+.. revealjs-slide::
+    :theme: "_static/onetime.css"
+
+'
+-----
+
+.. revealjs-section::
+    :data-background: ../../source/_image/fg2045/10.png
+
+.. revealjs-slide::
+    :theme: "_static/onetime.css"
+
+'
+-----
+
+.. revealjs-section::
+    :data-background: ../../source/_image/fg2045/11.png
+
+.. revealjs-slide::
+    :theme: "_static/onetime.css"

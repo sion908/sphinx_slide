@@ -46,3 +46,7 @@ dd>ul {
 dd>ul>li {
     margin-top: 10px;
 }
+
+.slide-background>div.slide-background-content{
+    background-size: 100% auto;
+}

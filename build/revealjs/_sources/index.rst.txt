@@ -36,9 +36,12 @@
 
 .. include:: godao.rst
 
+.. include:: enujii.rst
+
+.. include:: fg2045.rst
 
 
-sss
-=====
+まとめ
+===========================
 
-dasda
+えぬじーをよろしくおねがいします
