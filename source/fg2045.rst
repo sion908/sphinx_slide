@@ -1,14 +1,13 @@
 fg2045について
-====
+=======
 
-'
------
+notitle
+--------
 
-.. revealjs-section::
-    :data-background: ../../source/_image/fg2045/01.png
-
-.. revealjs-slide::
-    :theme: "_static/fg.css"
+.. revealjs_break::
+    :notitle:
+    :data-background-image: ./_image/fg2045/01.png
+    :data-background-size: contain
 
 '
 -----
@@ -86,6 +85,7 @@ fg2045について
 -----
 
 .. revealjs-section::
+    :notitle:
     :data-background: ../../source/_image/fg2045/10.png
 
 .. revealjs-slide::

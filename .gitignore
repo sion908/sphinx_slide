@@ -166,3 +166,5 @@ cython_debug/
 
 # npm 
 node_modules/
+
+.DS_Store

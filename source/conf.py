@@ -41,7 +41,7 @@ language = 'ja'
 html_theme = 'league'
 
 # Reveal.jsプレゼンテーションで使う静的ファイルを管理しているフォルダを指定
-revealjs_static_path = ['_static']
+revealjs_static_path = ['_static', '_image']
 
 revealjs_script_plugins = [
     # Reveal.js組み込みのシンタックスハイライトプラグインを使う
