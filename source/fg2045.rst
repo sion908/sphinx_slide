@@ -8,6 +8,9 @@ fg2045について
     :align: center
     :width: 80%
 
+`Link: fg2045 <https://fg-nagasaki2045.localinfo.jp/>`_
+
+
 .. revealjs-break::
     :notitle:
     :data-background-image: _images/fg2045-02.png
