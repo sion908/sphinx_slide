@@ -28,6 +28,8 @@ extensions = [
     'sphinx_revealjs',
     'sphinxemoji.sphinxemoji',
     "sphinx_design",
+    "sphinx_revealjs.ext.screenshot",
+    "sphinxext.opengraph",
 ]
 
 templates_path = ['_templates']

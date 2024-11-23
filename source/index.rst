@@ -1,4 +1,4 @@
-:og:image: _images/ogp/pycon-mini-tokai-2024/index.png
+:og:image: ./_images/ogp/index.png
 :og:description: 開港5都市景観まちづくり会議2024横浜大会FGショートプレゼン大会で発表したプレゼンテーションです
 
 .. |br| raw:: html
