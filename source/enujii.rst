@@ -12,22 +12,26 @@
 任意団体「NG会」の誕生
 ------------------------
 
-* 同じ方向を向いて奮闘する仲間作り
-* New Generationsとしての活動開始
-* 定期的な交流会の開催
 
-.. revealjs-section::
-    :data-transition: slide
+    * 同じ方向を向いて奮闘する仲間作り
+    * New Generationsとしての活動開始
+    * 定期的な交流会の開催
+
+    .. figure:: ./_image/ng-birth.png
+        :align: left
+        :width: 400px
+
 
 見えてきた課題
 --------------
 
-* 「長崎は好きだけど、残れない」
-* 「ただ働きにつかれてしまう」
-* 「適切な支援を受けられず挫折」
+    .. figure:: ./_image/ng-assignment.png
+        :align: left
+        :width: 400px
 
-.. revealjs-section::
-    :data-transition: slide
+    * 「長崎は好きだけど、残れない」
+    * 「ただ働きにつかれてしまう」
+    * 「適切な支援を受けられず挫折」
 
 
 「ベンチャーファンド」をつくってみたら合同会社DAOができた話
