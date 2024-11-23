@@ -1,13 +1,13 @@
 fg2045について
 =======
 
-notitle
---------
 
-.. revealjs_break::
+
+.. revealjs-break::
     :notitle:
     :data-background-image: ./_image/fg2045/01.png
     :data-background-size: contain
+
 
 '
 -----
