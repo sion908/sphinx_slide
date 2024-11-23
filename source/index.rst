@@ -70,6 +70,12 @@
 - `FG長崎2045 <https://fg-nagasaki2045.localinfo.jp/>`_
 
 
+おわり
+---------
+
+.. figure:: ./_image/slide_qr.png
+    :height: 700px
+
 .. figure:: ./_image/fg2045-01.png
     :width: 1px
 .. figure:: ./_image/fg2045-02.png

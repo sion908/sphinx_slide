@@ -15,6 +15,8 @@
     :align: right
     :width: 400px
 
+.. [#portfolio] ポートフォリオ <https://portfolio.sion908.tech/>
+
 株式会社デザイニウム
 -----------------
 
