@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'test'
+project = '開港5都市まちづくり会議 2024'
 copyright = '2024, sion908'
 author = 'sion908'
 
@@ -29,7 +29,7 @@ extensions = [
     'sphinxemoji.sphinxemoji',
     "sphinx_design",
     "sphinx_revealjs.ext.screenshot",
-    "sphinxext.opengraph",
+    "sphinxext.opengraph"
 ]
 
 templates_path = ['_templates']

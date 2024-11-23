@@ -1,2 +1,9 @@
-img/**
-pdf/**
+# img/ ディレクトリ内の全てのファイルを無視
+img/*
+# ただし、img/.gitkeep は追跡する
+!img/.gitkeep
+
+# pdf/ ディレクトリ内の全てのファイルを無視
+pdf/*
+# ただし、pdf/.gitkeep は追跡する
+!pdf/.gitkeep
