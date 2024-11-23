@@ -3,11 +3,10 @@
 
 德久泰河
 
-* Sion908 (X, GitHub, etc)
+* Sion908 (ついった, GitHub, etc)
 * 生息地(群馬、長崎)
 * 株式会社デザイニウム
-* webアプリケーション, 3DCG
-* 写真
+* webアプリケーション, 3DCG, 写真
 
 * 高校教員免許(数学、工業)
 
@@ -31,6 +30,3 @@
     :alt: corp_home
     :align: right
     :width: 1200px
-
-
-
