@@ -63,6 +63,7 @@ revealjs_script_plugins = [
 # revealjs_static_pathで指定したフォルダからのパス
 revealjs_css_files = [
     'slides.css',
+    'footnotes.css',
     "revealjs/plugin/highlight/zenburn.css",
 ]
 

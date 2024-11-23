@@ -26,6 +26,13 @@ DAOとは
         - 参加者はトークンを所有している限り、提案や投票に参加可能。
         - 透明性が高く、活動内容が誰でも確認できる。
 
+.. revealjs-break::
+    :notitle:
+    :data-background-image: https://trade-log.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/10/DAO%E3%81%AE%E7%89%B9%E5%BE%B4.png.webp
+    :data-background-size: contain
+
+.. [#f1] https://trade-log.io/column/2163
+
 DAOのメリット
 -------
 
