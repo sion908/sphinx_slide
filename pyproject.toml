@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sphinx-slide"
+version = "0.1.0"
+description = "slide"
+authors = ["Sion908 <sionn908@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+[tool.poetry.group.dev.dependencies]
+qrcode = ""
+pillow = ""
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
