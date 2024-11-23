@@ -17,6 +17,7 @@ jobs:
      - name: Build
        run: |
          pip install -r requirements.txt
+         playwright install
          make revealjs
      - name: Upload artifact
        uses: actions/upload-pages-artifact@v3
