@@ -52,8 +52,33 @@ etc
 .. figure:: ./_image/fg2045-01.png
     :align: left
     :width: 5px
-    
-.. figure:: ./_image/fg2045/02.png
+.. figure:: ./_image/fg2045-02.png
     :align: left
     :width: 5px
-    
+.. figure:: ./_image/fg2045-03.png
+    :align: left
+    :width: 5px
+.. figure:: ./_image/fg2045-04.png
+    :align: left
+    :width: 5px
+.. figure:: ./_image/fg2045-05.png
+    :align: left
+    :width: 5px
+.. figure:: ./_image/fg2045-06.png
+    :align: left
+    :width: 5px
+.. figure:: ./_image/fg2045-07.png
+    :align: left
+    :width: 5px
+.. figure:: ./_image/fg2045-08.png
+    :align: left
+    :width: 5px
+.. figure:: ./_image/fg2045-09.png
+    :align: left
+    :width: 5px
+.. figure:: ./_image/fg2045-10.png
+    :align: left
+    :width: 5px
+.. figure:: ./_image/fg2045-11.png
+    :align: left
+    :width: 5px

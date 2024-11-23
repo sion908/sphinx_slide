@@ -8,94 +8,52 @@ fg2045について
     :data-background-image: _images/fg2045-01.png
     :data-background-size: contain
 
-
-'
------
-
-.. revealjs-section::
-    :data-background: ../../source/_image/fg2045/02.png
-
-.. revealjs-slide::
-    :theme: "_static/onetime.css"
-
-'
------
-
-.. revealjs-section::
-    :data-background: ../../source/_image/fg2045/03.png
-
-.. revealjs-slide::
-    :theme: "_static/onetime.css"
-
-'
------
-
-.. revealjs-section::
-    :data-background: ../../source/_image/fg2045/04.png
-
-.. revealjs-slide::
-    :theme: "_static/onetime.css"
-
-'
------
-
-.. revealjs-section::
-    :data-background: ../../source/_image/fg2045/05.png
-
-.. revealjs-slide::
-    :theme: "_static/onetime.css"
-
-'
------
-
-.. revealjs-section::
-    :data-background: ../../source/_image/fg2045/06.png
-
-.. revealjs-slide::
-    :theme: "_static/onetime.css"
-
-'
------
-
-.. revealjs-section::
-    :data-background: ../../source/_image/fg2045/07.png
-
-.. revealjs-slide::
-    :theme: "_static/onetime.css"
-
-'
------
-
-.. revealjs-section::
-    :data-background: ../../source/_image/fg2045/08.png
-
-.. revealjs-slide::
-    :theme: "_static/onetime.css"
-
-'
------
-
-.. revealjs-section::
-    :data-background: ../../source/_image/fg2045/09.png
-
-.. revealjs-slide::
-    :theme: "_static/onetime.css"
-
-'
------
-
-.. revealjs-section::
+.. revealjs-break::
     :notitle:
-    :data-background: ../../source/_image/fg2045/10.png
+    :data-background-image: _images/fg2045-02.png
+    :data-background-size: contain
 
-.. revealjs-slide::
-    :theme: "_static/onetime.css"
+.. revealjs-break::
+    :notitle:
+    :data-background-image: _images/fg2045-03.png
+    :data-background-size: contain
 
-'
------
+.. revealjs-break::
+    :notitle:
+    :data-background-image: _images/fg2045-04.png
+    :data-background-size: contain
 
-.. revealjs-section::
-    :data-background: ../../source/_image/fg2045/11.png
+.. revealjs-break::
+    :notitle:
+    :data-background-image: _images/fg2045-05.png
+    :data-background-size: contain
 
-.. revealjs-slide::
-    :theme: "_static/onetime.css"
+.. revealjs-break::
+    :notitle:
+    :data-background-image: _images/fg2045-06.png
+    :data-background-size: contain
+
+.. revealjs-break::
+    :notitle:
+    :data-background-image: _images/fg2045-07.png
+    :data-background-size: contain
+
+.. revealjs-break::
+    :notitle:
+    :data-background-image: _images/fg2045-08.png
+    :data-background-size: contain
+
+.. revealjs-break::
+    :notitle:
+    :data-background-image: _images/fg2045-09.png
+    :data-background-size: contain
+
+.. revealjs-break::
+    :notitle:
+    :data-background-image: _images/fg2045-10.png
+    :data-background-size: contain
+
+.. revealjs-break::
+    :notitle:
+    :data-background-image: _images/fg2045-11.png
+    :data-background-size: contain
