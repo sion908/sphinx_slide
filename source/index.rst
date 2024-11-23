@@ -45,3 +45,15 @@
 ===========================
 
 えぬじーをよろしくおねがいします
+
+
+etc
+-------
+.. figure:: ./_image/fg2045-01.png
+    :align: left
+    :width: 5px
+    
+.. figure:: ./_image/fg2045/02.png
+    :align: left
+    :width: 5px
+    
