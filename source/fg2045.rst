@@ -1,14 +1,18 @@
 fg2045について
-=======
+===========================
 
 ,
 ------
 
-.. figure:: ./_image/fg2045-01.png
-    :align: center
-    :width: 80%
+.. figure:: ./_image/alpha.png
+    :height: 700px
 
-`Link: fg2045 <https://fg-nagasaki2045.localinfo.jp/>`_
+`Link: fg2045 <https://fg-nagasaki2045.localinfo.jp/>`__
+
+.. revealjs-section::
+    :data-background-image: _images/fg2045-01.png
+    :data-background-size: contain
+
 
 
 .. revealjs-break::
