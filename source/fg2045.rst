@@ -1,12 +1,12 @@
 fg2045について
 =======
 
+,
+------
 
-
-.. revealjs-break::
-    :notitle:
-    :data-background-image: _images/fg2045-01.png
-    :data-background-size: contain
+.. figure:: ./_image/fg2045-01.png
+    :align: center
+    :width: 80%
 
 .. revealjs-break::
     :notitle:
