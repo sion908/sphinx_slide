@@ -6,7 +6,7 @@ BUILDDIR      = build
 REVEALJSDIR   = $(BUILDDIR)/revealjs
 
 # List of presentations
-PRESENTATIONS = presentation1 presentation2
+PRESENTATIONS = none 260223_ailt
 
 .PHONY: help Makefile all-slides clean-all $(PRESENTATIONS)
 

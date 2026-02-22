@@ -9,7 +9,7 @@ SphinxとReveal.jsを使用して構築されています。
    :maxdepth: 1
    :hidden:
 
-   slides/presentation1/index
+   slides/260223_ailt/index
    slides/presentation2/index
 
 スライドのリスト
@@ -20,16 +20,16 @@ SphinxとReveal.jsを使用して構築されています。
 
 .. raw:: html
 
-   <iframe src="presentation1/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+   <iframe src="260223_ailt/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
-* `別タブや全画面で開く <presentation1/index.html>`_
+* `別タブや全画面で開く <260223_ailt/index.html>`_
 
 
-プレゼンテーション 2
---------------------
+.. プレゼンテーション 2
+.. --------------------
 
-.. raw:: html
+.. .. raw:: html
 
-   <iframe src="presentation2/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+..    <iframe src="presentation2/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
-* `別タブや全画面で開く <presentation2/index.html>`_
+.. * `別タブや全画面で開く <presentation2/index.html>`_

@@ -1,5 +1,5 @@
 # Configuration file for the Sphinx documentation builder.
-project = 'ビジネスプレゼンテーション'
+project = 'comming soon...'
 copyright = '2024, sion908'
 author = 'sion908'
 
