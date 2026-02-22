@@ -1,100 +1,35 @@
-:og:image: ./_images/ogp/index.png
-:og:description: 開港5都市景観まちづくり会議2024横浜大会FGショートプレゼン大会で発表したプレゼンテーションです
-
-.. |br| raw:: html
-
-   <br />
-
 ================================
-合DAO立ち上げてみた
+スライド一覧
 ================================
 
-.. revealjs-slide::
-    :conf: {"width":1920,"height":1080}
+このサイトは、sion908が作成したプレゼンテーションスライドを公開しているアーカイブサイトです。
+SphinxとReveal.jsを使用して構築されています。
 
-:author: 德久 泰河(紫苑) / @Sion908_
-:date: 2024/11/23
-:event: 開港5都市景観まちづくり会議2024横浜大会 FGショートプレゼン大会
+.. toctree::
+   :maxdepth: 1
+   :hidden:
 
-はじめに
+   slides/presentation1/index
+   slides/presentation2/index
+
+スライドのリスト
 ================
 
-.. figure:: ./_image/slide_qr.png
-    :height: 700px
-
-ここでスライドは公開しています |br|
-そのうち消えているかもしれないですが
-
-
-アジェンダ
+プレゼンテーション 1
 --------------------
-このプレゼンテーションでは、次のことを解説します。
+
+.. raw:: html
+
+   <iframe src="presentation1/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+
+* `別タブや全画面で開く <presentation1/index.html>`_
 
 
-.. revealjs-fragments::
-    * おまえだれよ
-    * 合DAOについて
-    * えぬじーについて
-    * FG2045について
+プレゼンテーション 2
+--------------------
 
+.. raw:: html
 
-.. include:: whois.rst
+   <iframe src="presentation2/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
-
-|:confetti_ball:| 会社作りました |:confetti_ball:|
-===========================
-
-
-.. include:: godao.rst
-
-.. include:: enujii.rst
-
-.. include:: fg2045.rst
-
-
-まとめ
-===========================
-
-えぬじーをよろしくおねがいします
-
-
-
-参考資料
--------
-
-- `合同会社えぬじー <https://enujii.com/>`_
-- `文章をより魅力的にするためのテクニック <https://note.com/y_hirowatari0311/n/nebce31998d51>`_
-- `DAOの活用事例 <https://note.com/osakanadao/n/nb83af8924413>`_
-- `「ベンチャーファンド」をつくってみた ら合同会社DAOができた話 <https://note.com/asita_preji/n/n8790e809f9b5?sub_rt=share_sb>`_
-- `マーケット分析コラム: 経済指標とその影響 <https://trade-log.io/column/2163>`_
-- `FG長崎2045 <https://fg-nagasaki2045.localinfo.jp/>`_
-
-
-おわり
----------
-
-.. figure:: ./_image/slide_qr.png
-    :height: 700px
-
-.. figure:: ./_image/fg2045-01.png
-    :width: 1px
-.. figure:: ./_image/fg2045-02.png
-    :width: 1px
-.. figure:: ./_image/fg2045-03.png
-    :width: 1px
-.. figure:: ./_image/fg2045-04.png
-    :width: 1px
-.. figure:: ./_image/fg2045-05.png
-    :width: 1px
-.. figure:: ./_image/fg2045-06.png
-    :width: 1px
-.. figure:: ./_image/fg2045-07.png
-    :width: 1px
-.. figure:: ./_image/fg2045-08.png
-    :width: 1px
-.. figure:: ./_image/fg2045-09.png
-    :width: 1px
-.. figure:: ./_image/fg2045-10.png
-    :width: 1px
-.. figure:: ./_image/fg2045-11.png
-    :width: 1px
+* `別タブや全画面で開く <presentation2/index.html>`_

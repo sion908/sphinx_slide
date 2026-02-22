@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = '開港5都市まちづくり会議 2024'
+project = 'スライド公開サイト'
 copyright = '2024, sion908'
 author = 'sion908'
 
@@ -17,19 +17,14 @@ latex_docclass = {'manual': 'jsbook'}
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    # 使用する拡張としてsphinx-revealjsを新規追加
-    # 'sphinx_revealjs',
-    # 'sphinx.ext.githubpages',
-    # # 追加: sphinxemojiは2個書くことに注意
-    # 'sphinxemoji.sphinxemoji',
-    # "sphinxext.opengraph",
-    "oembedpy.ext.sphinx",
-    'sphinx.ext.githubpages',  # 追加！
+    "oembedpy.adapters.sphinx",
     'sphinx_revealjs',
+    'sphinx.ext.githubpages',
     'sphinxemoji.sphinxemoji',
+    "sphinxext.opengraph",
     "sphinx_design",
-    "sphinx_revealjs.ext.screenshot",
-    "sphinxext.opengraph"
+    "sphinxext.opengraph",
+    "atsphinx.qrcode"
 ]
 
 templates_path = ['_templates']
@@ -40,10 +35,19 @@ language = 'ja'
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'league'
+html_theme = 'default'
+
+# Standard HTML (index.rst) settings
+html_static_path = ['slides/shared/_static', 'slides/shared/_image', "_static"]
+html_css_files = ['portfolio.css', "custom.css"]
 
 # Reveal.jsプレゼンテーションで使う静的ファイルを管理しているフォルダを指定
-revealjs_static_path = ['_static', '_image']
+revealjs_static_path = [
+    'slides/shared/_static',
+    'slides/shared/_image',
+]
+
+revealjs_css_files = []
 
 revealjs_script_plugins = [
     # Reveal.js組み込みのシンタックスハイライトプラグインを使う
@@ -61,10 +65,13 @@ revealjs_script_plugins = [
     },
 ]
 
+# Reveal.jsのベーステーマを変更
+revealjs_style_theme = 'white'
+
 # Reveal.jsプレゼンテーションで使うCSSファイルを指定
-# revealjs_static_pathで指定したフォルダからのパス
 revealjs_css_files = [
-    'slides.css',
+    'portfolio.css',
+    'layout.css',
     'footnotes.css',
     "revealjs/plugin/highlight/zenburn.css",
 ]

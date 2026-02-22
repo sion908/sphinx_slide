@@ -1,0 +1,18 @@
+.reveal dt {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  font-weight: normal;
+  margin-top: 1rem;
+}
+.reveal dd {
+  font-size: 1.8rem;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+.reveal ul {
+  list-style-type: none !important;
+}
+.reveal ul li {
+  list-style: none !important;
+  list-style-type: none !important;
+}
