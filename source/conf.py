@@ -41,6 +41,10 @@ html_theme = 'default'
 html_static_path = ['slides/shared/_static', 'slides/shared/_image', "_static"]
 html_css_files = ['portfolio.css', "custom.css"]
 
+# PWA用ファイル（manifest.json, icons/）をHTMLルートに配置
+# manifest.json -> /manifest.json, icons/ -> /icons/
+html_extra_path = ['_static/manifest.json', '_static/icons']
+
 # Reveal.jsプレゼンテーションで使う静的ファイルを管理しているフォルダを指定
 revealjs_static_path = [
     'slides/shared/_static',

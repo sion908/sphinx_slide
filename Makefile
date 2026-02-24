@@ -8,7 +8,11 @@ REVEALJSDIR   = $(BUILDDIR)/revealjs
 # List of presentations
 PRESENTATIONS = none 260223_ailt
 
-.PHONY: help Makefile all-slides clean-all $(PRESENTATIONS)
+# PWA icon sizes to generate (resize_icons.py で使用)
+PWA_VENV      = /tmp/pwa_icon_venv
+PWA_PYTHON    = $(PWA_VENV)/bin/python
+
+.PHONY: help Makefile all-slides clean-all pwa-icons $(PRESENTATIONS)
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -30,9 +34,24 @@ top-index:
 	@mkdir -p $(REVEALJSDIR)/slides/shared
 	@cp -r $(SOURCEDIR)/slides/shared/_image $(REVEALJSDIR)/slides/shared/
 	@cp -r $(SOURCEDIR)/slides/shared/_static $(REVEALJSDIR)/slides/shared/
+	@echo "Copying PWA files to dist..."
+	@cp $(SOURCEDIR)/_static/manifest.json $(REVEALJSDIR)/manifest.json
+	@mkdir -p $(REVEALJSDIR)/icons
+	@cp -r $(SOURCEDIR)/_static/icons/* $(REVEALJSDIR)/icons/
+
+# PWA用アイコン生成（/tmp の仮想環境で Pillow を使ってリサイズ）
+pwa-icons:
+	@echo "Setting up temporary venv for icon generation..."
+	@if [ ! -f "$(PWA_PYTHON)" ]; then \
+		python3 -m venv $(PWA_VENV) && \
+		$(PWA_VENV)/bin/pip install pillow -q; \
+	fi
+	@echo "Generating PWA icons..."
+	@$(PWA_PYTHON) resize_icons.py image.png $(SOURCEDIR)/_static/icons/
+	@echo "PWA icons generated."
 
 # Build everything
-all-slides: $(PRESENTATIONS) top-index
+all-slides: pwa-icons $(PRESENTATIONS) top-index
 	@echo "All presentations and top-index built in $(REVEALJSDIR)"
 
 # Clean all builds

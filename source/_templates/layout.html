@@ -1,0 +1,12 @@
+{%- extends "!layout.html" %}
+
+{%- block extrahead %}
+{{ super() }}
+<link rel="manifest" href="{{ pathto('manifest.json', 1) }}">
+<link rel="apple-touch-icon" href="{{ pathto('icons/apple-touch-icon.png', 1) }}">
+<meta name="theme-color" content="#1a1a2e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="sion908 slides">
+{%- endblock %}
