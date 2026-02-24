@@ -16,7 +16,7 @@ AI時代のコミュニティHP：Astro+Markdownがちょうどいい
     :class: center
     :width: 400
 
-    https://slides.sion908.tech/
+    https://slide.sion908.tech/
 
 ここでスライドは公開しています  
 そのうち消えているかもしれないですが...
@@ -34,7 +34,7 @@ AI時代のコミュニティHP：Astro+Markdownがちょうどいい
 .. revealjs-fragments::
     * おまえだれよ
     * 私的最近のAI事情
-    * NaITeのHPをAstro + Markdownで作った話
+    * NaITEのHPをAstro + Markdownで作った話
     * まとめ
 
 
