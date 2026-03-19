@@ -1,6 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
-project = 'comming soon...'
-copyright = '2024, sion908'
+project = 'Geeks Who Drink in Nagasaki'
+copyright = '2026, sion908'
 author = 'sion908'
 
 extensions = [
