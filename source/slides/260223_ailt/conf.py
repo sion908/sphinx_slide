@@ -12,6 +12,7 @@ extensions = [
     "sphinx_revealjs.ext.screenshot",
     "sphinxext.opengraph",
     "atsphinx.qrcode",
+    "sphinx_nekochan",
 ]
 
 templates_path = ['_templates']
@@ -40,3 +41,10 @@ revealjs_css_files = [
     'footnotes.css',
     "revealjs/plugin/highlight/zenburn.css",
 ]
+
+# sphinx-nekochan フッター設定
+nekochan_footer = {
+    "text": "slide.sion908.tech",
+    "link": "https://slide.sion908.tech",
+    "target": "_blank",
+}

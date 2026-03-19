@@ -24,7 +24,8 @@ extensions = [
     "sphinxext.opengraph",
     "sphinx_design",
     "sphinxext.opengraph",
-    "atsphinx.qrcode"
+    "atsphinx.qrcode",
+    "sphinx_nekochan",
 ]
 
 templates_path = ['_templates']
@@ -35,7 +36,7 @@ language = 'ja'
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'default'
+# html_theme = 'default'
 
 # Standard HTML (index.rst) settings
 html_static_path = ['slides/shared/_static', 'slides/shared/_image', "_static"]
@@ -70,7 +71,7 @@ revealjs_script_plugins = [
 ]
 
 # Reveal.jsのベーステーマを変更
-revealjs_style_theme = 'white'
+# revealjs_style_theme = 'sky'
 
 # Reveal.jsプレゼンテーションで使うCSSファイルを指定
 revealjs_css_files = [
@@ -90,4 +91,11 @@ revealjs_script_conf = {  # プラグインの有効化
     #         },
     #     ]
     # },
+}
+
+# sphinx-nekochan フッター設定
+nekochan_footer = {
+    "text": "slide.sion908.tech",
+    "link": "https://slide.sion908.tech",
+    "target": "_blank",
 }

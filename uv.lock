@@ -567,6 +567,18 @@ wheels = [
 ]
 
 [[package]]
+name = "sphinx-nekochan"
+version = "0.4.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "sphinx" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/02/ae/0c8865056e05fc3365836aade1a16566d68f7613f446367de2dcc02064c5/sphinx_nekochan-0.4.0.tar.gz", hash = "sha256:6348ccad006e6918a8d26167c8e56918d62f43d285efd2524f74a0176704b9c0", size = 6343778, upload-time = "2025-11-05T10:08:15.593Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/59/6b/7009442170c4e086cf8daed1383ad3c2ef28ad6efd4acbda3a2f94bfe8b2/sphinx_nekochan-0.4.0-py3-none-any.whl", hash = "sha256:1b78382bcd2c80c11f9ba397b2fba986b0581395bbb3c6cc97b6718615e0b854", size = 6341436, upload-time = "2025-11-05T10:08:13.512Z" },
+]
+
+[[package]]
 name = "sphinx-revealjs"
 version = "3.2.1"
 source = { registry = "https://pypi.org/simple" }
@@ -592,6 +604,7 @@ dependencies = [
     { name = "qrcode" },
     { name = "sphinx" },
     { name = "sphinx-design" },
+    { name = "sphinx-nekochan" },
     { name = "sphinx-revealjs" },
     { name = "sphinxemoji" },
     { name = "sphinxext-opengraph" },
@@ -606,6 +619,7 @@ requires-dist = [
     { name = "qrcode" },
     { name = "sphinx", specifier = ">=8.0.2" },
     { name = "sphinx-design", specifier = ">=0.6.1" },
+    { name = "sphinx-nekochan", specifier = ">=0.4.0" },
     { name = "sphinx-revealjs", specifier = ">=3.0.3" },
     { name = "sphinxemoji", specifier = ">=0.3.1" },
     { name = "sphinxext-opengraph", specifier = ">=0.9.1" },

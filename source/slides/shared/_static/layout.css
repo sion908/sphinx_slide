@@ -14,3 +14,21 @@ div.flex>div.size-2 {
 div.flex>div.size-3 {
     flex: 3;
 }
+
+div.name {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.reveal .slides section .two-col {
+  display: flex;
+  gap: 40px;
+}
+
+.reveal .slides section .two-col .col {
+  width: 50%;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
+  text-transform: none;
+}
