@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'スライド公開サイト'
-copyright = '2024, sion908'
+copyright = '2024, sion908 lab'
 author = 'sion908'
 
 # LaTeX の docclass 設定
