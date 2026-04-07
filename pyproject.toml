@@ -17,6 +17,7 @@ dependencies = [
     "qrcode",
     "atsphinx-qrcode>=0.2.0",
     "sphinx-nekochan>=0.4.0",
+    "sphinx-sitemap>=2.2.0",
 ]
 
 [tool.uv]
