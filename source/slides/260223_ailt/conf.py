@@ -3,6 +3,17 @@ project = '技術プレゼンテーション'
 copyright = '2024, sion908'
 author = 'sion908'
 
+# matplotlibフォント設定（sphinxext.opengraph用）
+import matplotlib.font_manager as fm
+import os
+
+# ローカルフォントのパスを追加
+font_dir = os.path.join(os.path.dirname(__file__), '../../_static/fonts')
+for font_file in ['HackGen-Regular.ttf', 'HackGen-Bold.ttf']:
+    font_path = os.path.join(font_dir, font_file)
+    if os.path.exists(font_path):
+        fm.fontManager.addfont(font_path)
+
 extensions = [
     "oembedpy.adapters.sphinx",
     'sphinx.ext.githubpages',
@@ -41,6 +52,12 @@ revealjs_css_files = [
     'footnotes.css',
     "revealjs/plugin/highlight/zenburn.css",
 ]
+
+# sphinxext.opengraph 設定
+ogp_social_cards = {
+    "enable": True,
+    "font": "HackGen",
+}
 
 # sphinx-nekochan フッター設定
 nekochan_footer = {
