@@ -66,7 +66,7 @@ NaITE (長崎IT技術者会)
 
 * 長崎になんらかの縁や関わり、興味があるIT技術者を中心とした技術コミュニティ
 * ソフトウェア品質技術やソフトウェア開発技術の話題を中心に活動
-* 勉強会、もくもく会、QDG(Software Quality and Development Gathering)
+* 勉強会, もくもく会, QDG(Software Quality and Development Gathering), ToCセミナー
 * https://nagasaki-it-engineers.connpass.com/
 * 次回イベント: 2026.06.26(金) LT会 in リコーITソリューションズ
 
