@@ -12,7 +12,8 @@ SphinxとReveal.jsを使用して構築されています。
    :hidden:
 
    slides/260223_ailt/index
-   slides/presentation2/index
+   slides/260319_geeks_who_drink_in_nagasaki/index
+   slides/260515_naite_lt/index
 
 スライドのリスト
 ================
@@ -34,4 +35,13 @@ Geeks Who Drink in Nagasaki ~テーマフリー! ちゃんぽんEdition~ LT
    <iframe src="260223_ailt/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
 * `別タブや全画面で開く <260223_ailt/index.html>`_
+
+5月15 NaITE LT会
+--------------------
+
+.. raw:: html
+
+   <iframe src="260515_naite_lt/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+
+* `別タブや全画面で開く <260515_naite_lt/index.html>`_
 
