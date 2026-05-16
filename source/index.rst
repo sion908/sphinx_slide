@@ -18,14 +18,14 @@ SphinxとReveal.jsを使用して構築されています。
 スライドのリスト
 ================
 
-Geeks Who Drink in Nagasaki ~テーマフリー! ちゃんぽんEdition~ LT
+5月15 NaITE LT会
 --------------------
 
 .. raw:: html
 
-   <iframe src="260319_geeks_who_drink_in_nagasaki/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+   <iframe src="260515_naite_lt/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
-* `別タブや全画面で開く <260319_geeks_who_drink_in_nagasaki/index.html>`_
+* `別タブや全画面で開く <260515_naite_lt/index.html>`_
 
 エンジニアプラス #1 〜 AI活用LT会〜
 --------------------
@@ -36,12 +36,11 @@ Geeks Who Drink in Nagasaki ~テーマフリー! ちゃんぽんEdition~ LT
 
 * `別タブや全画面で開く <260223_ailt/index.html>`_
 
-5月15 NaITE LT会
+Geeks Who Drink in Nagasaki ~テーマフリー! ちゃんぽんEdition~ LT
 --------------------
 
 .. raw:: html
 
-   <iframe src="260515_naite_lt/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+   <iframe src="260319_geeks_who_drink_in_nagasaki/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
-* `別タブや全画面で開く <260515_naite_lt/index.html>`_
-
+* `別タブや全画面で開く <260319_geeks_who_drink_in_nagasaki/index.html>`_
