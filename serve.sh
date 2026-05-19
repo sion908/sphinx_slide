@@ -8,6 +8,7 @@ DEFAULT_PORT=8080
 PORT=$DEFAULT_PORT
 BUILD_ONLY=false
 SKIP_BUILD=false
+TARGET_SLIDE=""
 
 # 引数解析
 while [[ $# -gt 0 ]]; do
@@ -24,25 +25,31 @@ while [[ $# -gt 0 ]]; do
             SKIP_BUILD=true
             shift
             ;;
+        -t)
+            TARGET_SLIDE="$2"
+            shift 2
+            ;;
         -h|--help)
-            echo "使い方: $0 [-p PORT] [-b] [-s]"
+            echo "使い方: $0 [-p PORT] [-b] [-s] [-t SLIDE]"
             echo ""
             echo "オプション:"
             echo "  -p PORT        サーバーのポートを指定 (デフォルト: $DEFAULT_PORT)"
             echo "  -b             ビルドのみ実行し、サーバーは起動しない"
             echo "  -s             ビルドをスキップし、サーバーのみ起動"
+            echo "  -t SLIDE       特定のスライドのみビルド (例: 260519_engineer_plus_3)"
             echo "  -h, --help     このヘルプを表示"
             echo ""
             echo "例:"
-            echo "  $0                    # ビルド&サーバー起動（デフォルト）"
-            echo "  $0 -p 3000           # ポート3000でビルド&サーバー起動"
-            echo "  $0 -b                 # ビルドのみ実行"
-            echo "  $0 -s                 # ビルドをスキップしてサーバー起動"
+            echo "  $0                           # すべてのスライドをビルド&サーバー起動"
+            echo "  $0 -p 3000                  # ポート3000でビルド&サーバー起動"
+            echo "  $0 -b                        # ビルドのみ実行"
+            echo "  $0 -s                        # ビルドをスキップしてサーバー起動"
+            echo "  $0 -t 260519_engineer_plus_3 # 特定のスライドのみビルド&サーバー起動"
             exit 0
             ;;
         *)
             echo "不明なオプション: $1"
-            echo "使い方: $0 [-p PORT] [-b] [-s]"
+            echo "使い方: $0 [-p PORT] [-b] [-s] [-t SLIDE]"
             exit 1
             ;;
     esac
@@ -67,11 +74,21 @@ fi
 # ビルド実行（スキップオプションがなければ）
 if [ "$SKIP_BUILD" = false ]; then
     echo "🔨 スライドをビルド中..."
-    if uv run make all-slides; then
-        echo "✅ ビルド完了"
+    if [ -n "$TARGET_SLIDE" ]; then
+        echo "ターゲットスライド: $TARGET_SLIDE"
+        if uv run make $TARGET_SLIDE top-index; then
+            echo "✅ ビルド完了 ($TARGET_SLIDE)"
+        else
+            echo "❌ ビルドに失敗しました"
+            exit 1
+        fi
     else
-        echo "❌ ビルドに失敗しました"
-        exit 1
+        if uv run make all-slides; then
+            echo "✅ ビルド完了 (すべてのスライド)"
+        else
+            echo "❌ ビルドに失敗しました"
+            exit 1
+        fi
     fi
 else
     echo "⏭️  ビルドをスキップします"

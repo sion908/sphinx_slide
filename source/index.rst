@@ -19,15 +19,6 @@ SphinxとReveal.jsを使用して構築されています。
 スライドのリスト
 ================
 
-5月15 NaITE LT会
---------------------
-
-.. raw:: html
-
-   <iframe src="260515_naite_lt/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
-
-* `別タブや全画面で開く <260515_naite_lt/index.html>`_
-
 エンジニアプラス #3 〜 AI活用LT会〜
 -----------------------------------
 
@@ -36,6 +27,15 @@ SphinxとReveal.jsを使用して構築されています。
    <iframe src="260519_engineer_plus_3/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
 * `別タブや全画面で開く <260519_engineer_plus_3/index.html>`_
+
+5月15 NaITE LT会
+--------------------
+
+.. raw:: html
+
+   <iframe src="260515_naite_lt/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+
+* `別タブや全画面で開く <260515_naite_lt/index.html>`_
 
 エンジニアプラス #1 〜 AI活用LT会〜
 -----------------------------------
