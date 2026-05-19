@@ -29,12 +29,12 @@
     .. container:: size-1
 
         
-        .. figure:: _imgs/naite.png
+        .. figure:: ../shared/_image/naite.png
             :alt: NaITEロゴ
             :align: center
             :width: 60%
 
-        .. figure:: _imgs/ue_nagasaki.png
+        .. figure:: ../shared/_image/ue_nagasaki.png
             :alt: UE長崎ロゴ
             :align: center
             :width: 60%
@@ -70,7 +70,7 @@ NaITE (長崎IT技術者会)
 * https://nagasaki-it-engineers.connpass.com/
 * 次回イベント: 2026.06.26(金) LT会 in リコーITソリューションズ
 
-.. figure:: _imgs/naite.png
+.. figure:: ../shared/_image/naite.png
     :alt: NaITEロゴ
     :align: right
     :width: 400px 
@@ -84,7 +84,7 @@ UE長崎
 * Webサイト: https://ue-ngs.sion908.tech
 * 次回イベント: 2026.06.14(土) もくもく会 in coto
 
-.. figure:: _imgs/ue_nagasaki.png
+.. figure:: ../shared/_image/ue_nagasaki.png
     :alt: UE長崎ロゴ
     :align: right
     :width: 400px 
