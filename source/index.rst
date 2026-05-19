@@ -14,6 +14,7 @@ SphinxとReveal.jsを使用して構築されています。
    slides/260223_ailt/index
    slides/260319_geeks_who_drink_in_nagasaki/index
    slides/260515_naite_lt/index
+   slides/260519_engineer_plus_3/index
 
 スライドのリスト
 ================
@@ -27,8 +28,17 @@ SphinxとReveal.jsを使用して構築されています。
 
 * `別タブや全画面で開く <260515_naite_lt/index.html>`_
 
+エンジニアプラス #3 〜 AI活用LT会〜
+-----------------------------------
+
+.. raw:: html
+
+   <iframe src="260519_engineer_plus_3/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+
+* `別タブや全画面で開く <260519_engineer_plus_3/index.html>`_
+
 エンジニアプラス #1 〜 AI活用LT会〜
---------------------
+-----------------------------------
 
 .. raw:: html
 
@@ -37,7 +47,7 @@ SphinxとReveal.jsを使用して構築されています。
 * `別タブや全画面で開く <260223_ailt/index.html>`_
 
 Geeks Who Drink in Nagasaki ~テーマフリー! ちゃんぽんEdition~ LT
---------------------
+----------------------------------------------------------------
 
 .. raw:: html
 
