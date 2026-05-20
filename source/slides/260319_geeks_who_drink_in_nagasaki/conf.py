@@ -67,7 +67,7 @@ ogp_description_length = 200
 ogp_social_cards = {
     "enable": False, # sphinx-revealjsのスクリーンショットを使用するため無効化
 }
-ogp_image = '_images/ogp/index.png'  # sphinx-revealjsのスクリーンショット画像を使用
+ogp_image = 'https://slide.sion908.tech/slides/260319_geeks_who_drink_in_nagasaki/_images/ogp/index.png'  # sphinx-revealjsのスクリーンショット画像を使用
 
 # sphinx-revealjs.ext.screenshot設定（OGP画像生成に使用）
 revealjs_screenshot_excludes = ["whois"]
