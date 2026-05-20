@@ -69,7 +69,7 @@ ogp_social_cards = {
 ogp_image = '_images/ogp/index.png'  # sphinx-revealjsのスクリーンショット画像を使用
 
 # sphinx-revealjs.ext.screenshot設定（OGP画像生成に使用）
-revealjs_screenshot_excludes = ["*/?_*", "*/whois"]
+revealjs_screenshot_excludes = ["whois"]
 
 # --- Monkey Patch for sphinxext-opengraph ---
 # OGPソーシャルカード（PNG画像）と og:description のテキストを
@@ -113,6 +113,10 @@ def custom_social_card_for_page(config_social, site_name, title, description, pa
     return original_social_card_for_page(config_social, site_name, title, description, pagename, ogp_site_url, ogp_canonical_url, srcdir=srcdir, outdir=outdir, config=config, env=env)
 
 ogp_init.social_card_for_page = custom_social_card_for_page
+
+def setup(app):
+    # sphinx-revealjs.ext.screenshotを有効化
+    app.setup_extension("sphinx_revealjs.ext.screenshot")
 
 # sphinx-nekochan フッター設定
 nekochan_footer = {
