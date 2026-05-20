@@ -59,6 +59,15 @@ wheels = [
 ]
 
 [[package]]
+name = "budoux"
+version = "0.8.4"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/52/5c/57f8bf230311d6a0b1096cdf31e48c4a3fe763c9185724ba62b35bb49c21/budoux-0.8.4.tar.gz", hash = "sha256:cbbb5c1185955caafaa18394fcb802e36f1fcc220a138212372a78c9f9ddd289", size = 106395, upload-time = "2026-05-18T01:47:35.366Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7a/33/f9fc20d531782c71211effdb22ceea76bf1bbd8246b2cdd08f8955febf5d/budoux-0.8.4-py3-none-any.whl", hash = "sha256:e3d0ae89dd6d1b52b1b54b8a81d312229041d715603bf1c45391b90499eeb9da", size = 101831, upload-time = "2026-05-18T01:47:34.116Z" },
+]
+
+[[package]]
 name = "certifi"
 version = "2026.1.4"
 source = { registry = "https://pypi.org/simple" }
@@ -923,6 +932,7 @@ dependencies = [
     { name = "sphinx-nekochan" },
     { name = "sphinx-revealjs" },
     { name = "sphinx-sitemap" },
+    { name = "sphinxcontrib-budoux" },
     { name = "sphinxemoji" },
     { name = "sphinxext-opengraph" },
 ]
@@ -940,6 +950,7 @@ requires-dist = [
     { name = "sphinx-nekochan", specifier = ">=0.4.0" },
     { name = "sphinx-revealjs", specifier = ">=3.0.3" },
     { name = "sphinx-sitemap", specifier = ">=2.2.0" },
+    { name = "sphinxcontrib-budoux", specifier = ">=0.1.6" },
     { name = "sphinxemoji", specifier = ">=0.3.1" },
     { name = "sphinxext-opengraph", specifier = ">=0.9.1" },
 ]
@@ -951,6 +962,20 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/ba/6e/b837e84a1a704953c62ef8776d45c3e8d759876b4a84fe14eba2859106fe/sphinxcontrib_applehelp-2.0.0.tar.gz", hash = "sha256:2f29ef331735ce958efa4734873f084941970894c6090408b079c61b2e1c06d1", size = 20053, upload-time = "2024-07-29T01:09:00.465Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/5d/85/9ebeae2f76e9e77b952f4b274c27238156eae7979c5421fba91a28f4970d/sphinxcontrib_applehelp-2.0.0-py3-none-any.whl", hash = "sha256:4cd3f0ec4ac5dd9c17ec65e9ab272c9b867ea77425228e68ecf08d6b28ddbdb5", size = 119300, upload-time = "2024-07-29T01:08:58.99Z" },
+]
+
+[[package]]
+name = "sphinxcontrib-budoux"
+version = "0.1.6"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "beautifulsoup4" },
+    { name = "budoux" },
+    { name = "sphinx" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/2c/05/4555ac1200141da49dc0e7b1cc0fe117851f4de6866064aafa940f11d2a4/sphinxcontrib_budoux-0.1.6.tar.gz", hash = "sha256:530c0942e0d42b783953a3f41c6fd808cd282389ff3977791f65596be978ee86", size = 6311, upload-time = "2024-04-29T12:54:53.031Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/4d/9e/83dfefc20e396f4f2a8b8d0ad4e2dfbc11b800a8e8d9ba7e94054ad228c3/sphinxcontrib_budoux-0.1.6-py3-none-any.whl", hash = "sha256:d16eb8a32937cb0d0c69bcab82ae89c4f19824ae424825ee51c700815f34cf6b", size = 6790, upload-time = "2024-04-29T12:54:51.365Z" },
 ]
 
 [[package]]

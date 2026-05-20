@@ -20,6 +20,7 @@ $(PRESENTATIONS):
 	@$(SPHINXBUILD) -M revealjs "$(SOURCEDIR)/slides/$@" "$(BUILDDIR)/$@" $(SPHINXOPTS) $(O)
 	@mkdir -p $(REVEALJSDIR)/$@
 	@cp -r $(BUILDDIR)/$@/revealjs/* $(REVEALJSDIR)/$@/
+	@if [ -f $(REVEALJSDIR)/_static/sphinx_nekochan.css ]; then cp -f $(REVEALJSDIR)/_static/sphinx_nekochan.css $(REVEALJSDIR)/$@/_static/; fi
 
 # Build the top-level index (HTML)
 top-index:
@@ -36,7 +37,11 @@ top-index:
 	@cp -r $(SOURCEDIR)/_static/icons/* $(REVEALJSDIR)/icons/
 
 # Build everything
-all-slides: $(PRESENTATIONS) top-index
+all-slides: top-index
+	@echo "Building presentations..."
+	@for pres in $(PRESENTATIONS); do \
+		$(MAKE) $$pres; \
+	done
 	@echo "All presentations and top-index built in $(REVEALJSDIR)"
 
 # Clean all builds

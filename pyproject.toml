@@ -19,6 +19,7 @@ dependencies = [
     "sphinx-nekochan>=0.4.0",
     "sphinx-sitemap>=2.2.0",
     "matplotlib>=3.9.0",
+    "sphinxcontrib-budoux>=0.1.6",
 ]
 
 [tool.uv]
