@@ -15,9 +15,19 @@ SphinxとReveal.jsを使用して構築されています。
    slides/260319_geeks_who_drink_in_nagasaki/index
    slides/260515_naite_lt/index
    slides/260519_engineer_plus_3/index
+   slides/260620_pelican_hands_on/index
 
 スライドのリスト
 ================
+
+AI時代に"自分の一次情報"を載せるエンジニアブログ入門 〜Pelican×GitHub Pages×AI執筆補助〜
+--------------------------------------------------------------------------------------
+
+.. raw:: html
+
+   <iframe src="260620_pelican_hands_on/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+
+* `別タブや全画面で開く <260620_pelican_hands_on/index.html>`_
 
 エンジニアプラス #3 〜 AI活用LT会〜
 -----------------------------------
