@@ -16,9 +16,19 @@ SphinxとReveal.jsを使用して構築されています。
    slides/260515_naite_lt/index
    slides/260519_engineer_plus_3/index
    slides/260620_pelican_hands_on/index
+   slides/260626_naite_lt_unlearning/index
 
 スライドのリスト
 ================
+
+『冒険の書』を読んでも、まだ学校教育を捨てきれなかった
+--------------------------------------------------------
+
+.. raw:: html
+
+   <iframe src="260626_naite_lt_unlearning/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+
+* `別タブや全画面で開く <260626_naite_lt_unlearning/index.html>`_
 
 AI時代に"自分の一次情報"を載せるエンジニアブログ入門 〜Pelican×GitHub Pages×AI執筆補助〜
 --------------------------------------------------------------------------------------
