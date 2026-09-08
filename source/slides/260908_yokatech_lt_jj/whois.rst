@@ -22,7 +22,7 @@
         * 高校教員免許（数学、工業）
         * NaITE、UE長崎、JAWS-UG長崎
 
-    .. container:: size-2
+    .. container:: size-1
 
         .. figure:: ../shared/_image/naite.png
             :alt: NaITEロゴ
@@ -40,3 +40,87 @@
             :width: 60%
 
 .. [#portfolio] ポートフォリオ <https://portfolio.sion908.tech/>
+
+
+
+株式会社デザイニウム
+--------------------------------------------------------------------------------
+
+* 福島県会津若松市
+* MaaS,地域通貨を含む、都市OSの一端や、除雪クラウドなどのDX化などを行う
+* 東京の拠点では、ARやXRも行っている
+
+.. figure:: ../shared/_image/corp_home.png
+    :alt: corp_home
+    :align: right
+    :width: 1200px
+
+NaITE (長崎IT技術者会)
+--------------------------------------------------------------------------------
+
+
+* 長崎になんらかの縁や関わり、興味があるIT技術者を中心とした技術コミュニティ
+* ソフトウェア品質技術やソフトウェア開発技術の話題を中心に活動
+* 勉強会, もくもく会, QDG(Software Quality and Development Gathering), ToCセミナー
+* https://nagasaki-it-engineers.connpass.com/
+* 次回イベント: 2026.10.16(金) NaITE LT会 vol.3 〜話す、聞く、深める〜
+
+.. container:: flex
+
+    .. container:: size-1
+
+        .. figure:: ../shared/_image/naite.png
+            :alt: NaITEロゴ
+            :align: right
+            :width: 400px
+
+    .. container:: size-1
+
+        .. figure:: _imgs/naite_event.png
+            :alt: NaITEイベント
+            :align: right
+            :width: 600px
+
+JAWS-UG 長崎
+--------------------------------------------------------------------------------
+
+* Amazon Web Services（AWS）のユーザーグループ
+* AWSに興味がある方、初心者からエキスパートまで幅広い層が集まるコミュニティ
+* 基礎的な内容から実践的な活用まで、参加者同士で知見を共有
+* Discordサーバーで継続的な交流
+* 次回イベント: 2026/09/16(水) BuilderCards Naight
+* Webサイト: https://jawsug-nagasaki.connpass.com/
+
+.. container:: flex
+
+    .. container:: size-1
+
+        .. figure:: ../shared/_image/jawsug-nagasaki-icon.png
+            :alt: JAWS-UG長崎アイコン
+            :align: right
+            :width: 400px
+
+    .. container:: size-1
+
+        .. figure:: _imgs/jaws_ug_nagasaki_event.png
+            :alt: JAWS-UG長崎イベント
+            :align: right
+            :width: 600px
+
+UE長崎
+--------------------------------------------------------------------------------
+
+* Unreal Engineと3D表現に興味を持つ人たちの長崎発クリエイティブ・コミュニティ
+* 「島を繋ぎ、長崎を一つのクリエイティブ・ギルドへ」
+* UEやメタバース of 3D表現の技術を使って、長崎の島々をつなぐ
+* Webサイト: https://ue-ngs.sion908.tech
+* 次回イベント: 2026.09.12(土) もくもく会 in AGORA 出島
+
+.. container:: flex
+
+    .. container:: size-1
+
+        .. figure:: ../shared/_image/ue_nagasaki.png
+            :alt: UE長崎ロゴ
+            :align: right
+            :width: 400px
