@@ -6,7 +6,7 @@ from pdf2image import convert_from_path
 # poppler_dir = Path(__file__).parent.absolute() / "poppler/Library/bin"
 # os.environ["PATH"] += os.pathsep + str(poppler_dir)
 
-pdf_path = Path("./pdf/2.pdf")
+pdf_path = Path("./pdf/jaws_vol1.pdf")
 image_dir = Path("./img")
 
 # PDFファイルを画像に変換

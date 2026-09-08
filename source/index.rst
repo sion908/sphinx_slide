@@ -17,9 +17,19 @@ SphinxとReveal.jsを使用して構築されています。
    slides/260519_engineer_plus_3/index
    slides/260620_pelican_hands_on/index
    slides/260626_naite_lt_unlearning/index
+   slides/260908_yokatech_lt_jj/index
 
 スライドのリスト
 ================
+
+Gitじゃないバージョン管理、Jujutsuを使ってみた
+---------------------------------------------------
+
+.. raw:: html
+
+   <iframe src="260908_yokatech_lt_jj/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+
+* `別タブや全画面で開く <260908_yokatech_lt_jj/index.html>`_
 
 『冒険の書』を読んでも、まだ学校教育を捨てきれなかった
 --------------------------------------------------------
