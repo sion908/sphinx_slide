@@ -21,6 +21,8 @@ $(PRESENTATIONS):
 	@mkdir -p $(REVEALJSDIR)/$@
 	@cp -r $(BUILDDIR)/$@/revealjs/* $(REVEALJSDIR)/$@/
 	@if [ -f $(REVEALJSDIR)/_static/sphinx_nekochan.css ]; then cp -f $(REVEALJSDIR)/_static/sphinx_nekochan.css $(REVEALJSDIR)/$@/_static/; fi
+	@mkdir -p $(REVEALJSDIR)/slides/$@
+	@if [ -d $(BUILDDIR)/$@/revealjs/_images ]; then mkdir -p $(REVEALJSDIR)/slides/$@/_images && cp -r $(BUILDDIR)/$@/revealjs/_images/* $(REVEALJSDIR)/slides/$@/_images/; fi
 
 # Build the top-level index (HTML)
 top-index:

@@ -72,12 +72,12 @@ nekochan_footer = {
 budoux_targets = ["h1", "h2", "h3"]
 
 # sphinxext.opengraph 設定
-ogp_site_url = 'https://slide.sion908.tech/260620_pelican_hands_on/'
+ogp_site_url = 'https://slide.sion908.tech/slides/260620_pelican_hands_on/'
 ogp_description_length = 200
 ogp_social_cards = {
     "enable": False, # sphinx-revealjsのスクリーンショットを使用するため無効化
 }
-ogp_image = 'https://slide.sion908.tech/260620_pelican_hands_on/_images/ogp/index.png'  # sphinx-revealjsのスクリーンショット画像を使用
+ogp_image = 'https://slide.sion908.tech/slides/260620_pelican_hands_on/_images/ogp/index.png'  # sphinx-revealjsのスクリーンショット画像を使用
 
 # sphinx-revealjs.ext.screenshot設定（OGP画像生成に使用）
 revealjs_screenshot_excludes = ["whois"]

@@ -27,7 +27,11 @@ Gitじゃないバージョン管理、Jujutsuを使ってみた
 
 .. raw:: html
 
-   <iframe src="260908_yokatech_lt_jj/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+   <div class="slide-card">
+     <a href="260908_yokatech_lt_jj/index.html" target="_blank" rel="noopener">
+       <img src="260908_yokatech_lt_jj/_images/ogp/index.png" alt="Gitじゃないバージョン管理、Jujutsuを使ってみた" loading="lazy">
+     </a>
+   </div>
 
 * `別タブや全画面で開く <260908_yokatech_lt_jj/index.html>`_
 
@@ -36,16 +40,24 @@ Gitじゃないバージョン管理、Jujutsuを使ってみた
 
 .. raw:: html
 
-   <iframe src="260626_naite_lt_unlearning/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+   <div class="slide-card">
+     <a href="260626_naite_lt_unlearning/index.html" target="_blank" rel="noopener">
+       <img src="260626_naite_lt_unlearning/_images/ogp/index.png" alt="『冒険の書』を読んでも、まだ学校教育を捨てきれなかった" loading="lazy">
+     </a>
+   </div>
 
 * `別タブや全画面で開く <260626_naite_lt_unlearning/index.html>`_
 
 AI時代に"自分の一次情報"を載せるエンジニアブログ入門 〜Pelican×GitHub Pages×AI執筆補助〜
---------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 .. raw:: html
 
-   <iframe src="260620_pelican_hands_on/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+   <div class="slide-card">
+     <a href="260620_pelican_hands_on/index.html" target="_blank" rel="noopener">
+       <img src="260620_pelican_hands_on/_images/ogp/index.png" alt="AI時代に自分の一次情報を載せるエンジニアブログ入門" loading="lazy">
+     </a>
+   </div>
 
 * `別タブや全画面で開く <260620_pelican_hands_on/index.html>`_
 
@@ -54,7 +66,11 @@ AI時代に"自分の一次情報"を載せるエンジニアブログ入門 〜
 
 .. raw:: html
 
-   <iframe src="260519_engineer_plus_3/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+   <div class="slide-card">
+     <a href="260519_engineer_plus_3/index.html" target="_blank" rel="noopener">
+       <img src="260519_engineer_plus_3/_images/ogp/index.png" alt="エンジニアプラス #3 〜 AI活用LT会〜" loading="lazy">
+     </a>
+   </div>
 
 * `別タブや全画面で開く <260519_engineer_plus_3/index.html>`_
 
@@ -63,7 +79,11 @@ AI時代に"自分の一次情報"を載せるエンジニアブログ入門 〜
 
 .. raw:: html
 
-   <iframe src="260515_naite_lt/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+   <div class="slide-card">
+     <a href="260515_naite_lt/index.html" target="_blank" rel="noopener">
+       <img src="260515_naite_lt/_images/ogp/index.png" alt="5月15 NaITE LT会" loading="lazy">
+     </a>
+   </div>
 
 * `別タブや全画面で開く <260515_naite_lt/index.html>`_
 
@@ -72,7 +92,11 @@ AI時代に"自分の一次情報"を載せるエンジニアブログ入門 〜
 
 .. raw:: html
 
-   <iframe src="260223_ailt/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+   <div class="slide-card">
+     <a href="260223_ailt/index.html" target="_blank" rel="noopener">
+       <img src="260223_ailt/_images/ogp/index.png" alt="エンジニアプラス #1 〜 AI活用LT会〜" loading="lazy">
+     </a>
+   </div>
 
 * `別タブや全画面で開く <260223_ailt/index.html>`_
 
@@ -81,6 +105,10 @@ Geeks Who Drink in Nagasaki ~テーマフリー! ちゃんぽんEdition~ LT
 
 .. raw:: html
 
-   <iframe src="260319_geeks_who_drink_in_nagasaki/index.html" width="100%" height="450" frameborder="0" allowfullscreen loading="lazy" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+   <div class="slide-card">
+     <a href="260319_geeks_who_drink_in_nagasaki/index.html" target="_blank" rel="noopener">
+       <img src="260319_geeks_who_drink_in_nagasaki/_images/ogp/index.png" alt="Geeks Who Drink in Nagasaki ~テーマフリー! ちゃんぽんEdition~ LT" loading="lazy">
+     </a>
+   </div>
 
 * `別タブや全画面で開く <260319_geeks_who_drink_in_nagasaki/index.html>`_
