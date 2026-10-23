@@ -4,7 +4,8 @@
 
 
 .. container:: name
-紫苑 (徳久泰河)
+
+    紫苑 (徳久泰河)
 
 .. container:: flex
 

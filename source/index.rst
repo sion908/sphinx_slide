@@ -11,6 +11,7 @@ SphinxとReveal.jsを使用して構築されています。
    :maxdepth: 1
    :hidden:
 
+   slides/261023_aws_cbs_fukuoka/index
    slides/260223_ailt/index
    slides/260319_geeks_who_drink_in_nagasaki/index
    slides/260515_naite_lt/index
@@ -21,6 +22,19 @@ SphinxとReveal.jsを使用して構築されています。
 
 スライドのリスト
 ================
+
+AI-DLCをわからないなりにやってみた話
+------------------------------------
+
+.. raw:: html
+
+   <div class="slide-card">
+     <a href="261023_aws_cbs_fukuoka/index.html" target="_blank" rel="noopener">
+       <img src="261023_aws_cbs_fukuoka/_images/ogp/index.png" alt="AI-DLCをわからないなりにやってみた話" loading="lazy">
+     </a>
+   </div>
+
+* `別タブや全画面で開く <261023_aws_cbs_fukuoka/index.html>`_
 
 Gitじゃないバージョン管理、Jujutsuを使ってみた
 ---------------------------------------------------
